@@ -14,7 +14,7 @@
 /* ============================================================================================ */
 /* [common]
 /* ============================================================================================ */
-body { height: 100%; font-family: 'Roboto', 'Noto Sans KR', sans-serif; font-size: 2.22vw;}
+body {height: 100%; font-family: 'Roboto', 'Noto Sans KR', sans-serif; font-size: 2.22vw;}
 
 
 /* clearfix */
@@ -46,8 +46,11 @@ p {font-size: 3.89vw;}
 /* [layout]
 /* ============================================================================================ */
 
+.wrap {position: relative; overflow: hidden; padding: 16.67vw 0; height: 100vh;}
+
 section + section {padding-top: 13.89vw;}
-.container {overflow-y: scroll; padding-bottom: 210px; height: 100%; -ms-overflow-style: none; scrollbar-width: none; }
+.container {overflow: hidden auto;height: calc(100vh - 32.94vw); -ms-overflow-style: none; scrollbar-width: none; }
+.container > section:last-child {margin-bottom: 8.33vw;}
 .container::-webkit-scrollbar {display: none;}
 .inner {padding: 0 5.56vw;}
 

@@ -52,7 +52,7 @@ common
 .origin_price::after {content: ''; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); display: block; width: 100%; height: 0.28vw; background: #bbb;}
 
 /* header */
-header {position: relative; width: 100%; height: 16.67vw; background: #fff; z-index: 5;}
+header {position: absolute; top: 0; left: 0; width: 100%; height: 16.67vw; background: #fff; z-index: 5;}
 header.scroll {position: fixed; top: 0; left: 0; box-shadow: 0 0.56vw 1.39vw rgba(0, 0, 0, 0.05);}
 
 header .navBar {display: flex; align-items: center;}
@@ -123,6 +123,8 @@ main container
 /*
 main container
 */
+
+.container > section.menu_pizza {margin-bottom: 0;}
 
 /* menu_pizza */
 .menu_pizza .productList > li::after {content: ''; display: block; width: 100%; height: 0.28vw; background: #eee; opacity: 0.5;}
@@ -215,7 +217,6 @@ main container
 .select.count .btn_orderCount .count {margin: 0 auto; font-size: 3.89vw;}
 .select.count .guide {margin-top: 2.78vw;}
 
-
 /* pickup */
 .result {padding-top: 8.33vw;}
 .result .totalResult {font-size: 3.33vw; font-weight: 500;}
@@ -279,40 +280,20 @@ main container
 
 /* event_02 */
 .partnersaleList {margin: 11.11vw 0;}
-.partnersaleList li {display: flex; width: 100%; padding: 8.33vw; border-radius: 2.78vw; box-shadow: 0 0.56vw 1.39vw rgba(0, 0, 0, 0.1);}
+.partnersaleList li {position: relative; width: 100%; padding: 10.33vw; border-radius: 2.78vw; box-shadow: 0 0.56vw 1.39vw rgba(0, 0, 0, 0.1);}
 .partnersaleList li + li {margin-top: 5.56vw;}
 
-.partnersaleList .txtWrap .tag.percent {display: flex; justify-content: center; align-items: center; margin-left: 2.78vw; width: 8.89vw; height: 8.89vw; font-size: 2.78vw; font-weight: 500; color: #fff; background: #41b6e5; border-radius: 50%;}
-.partnersaleList .txtWrap dt {display: flex; align-items: center; margin-bottom: 4.17vw; padding-right: 8.33vw;}
-.partnersaleList .txtWrap dt > span {flex: 1; font-size: 4.44vw; font-weight: 700;}
-.partnersaleList .txtWrap dd {font-size: 3.33vw; font-weight: 200; color: #666; line-height: 1.3;}
-.partnersaleList .txtWrap dd > span {font-weight: 500; color: #222;}
-.partnersaleList .txtWrap dd + dd {margin-top: 1.39vw;}
+.partnersaleList li > .tag.percent {position: absolute; top: 0; left: 0; display: flex; justify-content: center; align-items: center; width: 8.89vw; height: 8.89vw; font-size: 2.78vw; font-weight: 500; color: #fff; background: #41b6e5; border-radius: 0 50% 50% 50%;}
 
-.partnersaleList .imgWrap {margin-left: auto; width: 36.11vw; height: 23.75vw;}
-.partnersaleList .imgWrap img {width: 100%;}
+.partnersaleList .detail .txtWrap {margin-top: 6.94vw;}
+.partnersaleList .detail .txtWrap dt {margin-bottom: 4.17vw; padding-right: 8.33vw;}
+.partnersaleList .detail .txtWrap dt > span {font-size: 4.44vw; font-weight: 700;}
+.partnersaleList .detail .txtWrap dd {font-size: 3.33vw; font-weight: 200; color: #666; line-height: 1.3;}
+.partnersaleList .detail .txtWrap dd > span {display: inline-block; margin-left: 1.39vw; font-weight: 500; color: #222;}
+.partnersaleList .detail .txtWrap dd + dd {margin-top: 1.39vw;}
 
-/* event */
-/* .eventList {margin: 60px 0;}
-.eventList li {width: 100%; height: 34.39vw; overflow: hidden; border-radius: 20px;}
-.eventList li a {display: block; width: 100%; height: 100%;}
-.eventList li + li {margin-top: 30px;}
-.eventList li img {width: 100%;} */
-
-/* event_02 */
-/* .partnersaleList {margin: 80px 0;}
-.partnersaleList li {display: flex; width: 100%; padding: 60px; border-radius: 20px; box-shadow: 0 0.56vw 1.39vw rgba(0, 0, 0, 0.1);}
-.partnersaleList li + li {margin-top: 40px;}
-
-.partnersaleList .txtWrap .tag.percent {display: flex; justify-content: center; align-items: center; margin-left: 20px; width: 64px; height: 64px; font-size: 20px; font-weight: 500; color: #fff; background: #41b6e5; border-radius: 50%;}
-.partnersaleList .txtWrap dt {display: flex; align-items: center; margin-bottom: 30px; padding-right: 60px;}
-.partnersaleList .txtWrap dt > span {flex: 1; font-size: 32px; font-weight: 700;}
-.partnersaleList .txtWrap dd {font-size: 24px; font-weight: 200; color: #666; line-height: 1.3;}
-.partnersaleList .txtWrap dd > span {font-weight: 500; color: #222;}
-.partnersaleList .txtWrap dd + dd {margin-top: 10px;}
-
-.partnersaleList .imgWrap {margin-left: auto; width: 260px; height: 171px;}
-.partnersaleList .imgWrap img {width: 100%;} */
+.partnersaleList .detail .imgWrap {margin: 0 auto; width: 80%;}
+.partnersaleList .detail .imgWrap img {width: 100%;}
 
 
 

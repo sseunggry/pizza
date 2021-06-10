@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Script-Type" content="text/javascript">
+    <meta http-equiv="Content-Style-Type" content="text/css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-compatible" content="IE=edge, chrome=1">
+    <!-- css library -->
+
+    <!-- css customize -->
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/common.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/contents.css">
+
+    <!-- javascript -->
+    <script type="text/javascript" src="../assets/js/lib/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="../assets/js/lib/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="../assets/js/common.js" defer></script>
+
+    <title>pizza</title>
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <div class="navBar">
+    <div class="utill backBtn">
+        <img src="../assets/img/common/ico_back.png" alt="">
+    </div>
+
+    <div class="utill carBtn">
+        <a href="cart.html">
+            <img src="../assets/img/common/ico_cart.png" alt="">
+        </a>    
+    </div>
+</div>
+            <div class="txtTit">
+                <h2>메뉴</h2>
+            </div>
+        </header>
+
+        <div class="menu tabWrap_top">
+            <ul class="tabList">
+                <li>
+                    <a href="menu_pizza.html">피자</a>
+                </li>
+                <li class="active">
+                    <a href="menu_set.html">세트</a>
+                </li>
+                <li>
+                    <a href="menu_side.html">사이드</a>
+                </li>
+
+            </ul>
+        </div>
+        
+        <div class="container">
+            <section class="menu_set">
+                <div class="inner">
+                    <ul class="productList">
+                        <li>
+                            <a href="#">
+                                <div class="thumbImg">
+                                    <div class="tag best">
+                                        <span>Best</span>
+                                    </div>
+                                    <div class="imgWrap">
+                                        <img src="../assets/img/contents/menu_set_01.png" alt="">
+                                    </div>
+                                </div>
+                                <dl class="thumbTxt">
+                                    <dt>장인 세트</dt>
+                                    <dd class="detailTxt">
+                                        <p class="info">장인 피자 <span></span> 사이드 <span></span> 음료</p>
+                                    </dd>
+                                    <dd class="detailPrice">
+                                        <div class="txtWrap">
+                                            <span class="size">M</span>
+                                            <span class="sale_price">37,500</span>
+                                        </div>
+                                        <div class="txtWrap">
+                                            <span class="size">L</span>
+                                            <span class="sale_price">32,500</span>
+                                        </div>
+                                    </dd>
+                                </dl>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="thumbImg">
+                                    <div class="tag best">
+                                        <span>Best</span>
+                                    </div>
+                                    <div class="imgWrap">
+                                        <img src="../assets/img/contents/menu_set_02.png" alt="">
+                                    </div>
+                                </div>
+                                <dl class="thumbTxt">
+                                    <dt>달인 세트</dt>
+                                    <dd class="detailTxt">
+                                        <p class="info">달인 피자 <span></span> 사이드 <span></span> 음료</p>
+                                    </dd>
+                                    <dd class="detailPrice">
+                                        <div class="txtWrap">
+                                            <span class="size">M</span>
+                                            <span class="sale_price">34,500</span>
+                                        </div>
+                                        <div class="txtWrap">
+                                            <span class="size">L</span>
+                                            <span class="sale_price">30,500</span>
+                                        </div>
+                                    </dd>
+                                </dl>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="thumbImg">
+                                    <div class="tag best">
+                                        <span>Best</span>
+                                    </div>
+                                    <div class="imgWrap">
+                                        <img src="../assets/img/contents/menu_set_03.png" alt="">
+                                    </div>
+                                </div>
+                                <dl class="thumbTxt">
+                                    <dt>명품 세트</dt>
+                                    <dd class="detailTxt">
+                                        <p class="info">명품 피자 <span></span> 사이드 <span></span> 음료</p>
+                                    </dd>
+                                    <dd class="detailPrice">
+                                        <div class="txtWrap">
+                                            <span class="size">M</span>
+                                            <span class="sale_price">31,500</span>
+                                        </div>
+                                        <div class="txtWrap">
+                                            <span class="size">L</span>
+                                            <span class="sale_price">27,500</span>
+                                        </div>
+                                    </dd>
+                                </dl>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="thumbImg">
+                                    <div class="tag best">
+                                        <span>Best</span>
+                                    </div>
+                                    <div class="imgWrap">
+                                        <img src="../assets/img/contents/menu_set_04.png" alt="">
+                                    </div>
+                                </div>
+                                <dl class="thumbTxt">
+                                    <dt>웰빙 세트</dt>
+                                    <dd class="detailTxt">
+                                        <p class="info">웰빙 피자 <span></span> 사이드 <span></span> 음료</p>
+                                    </dd>
+                                    <dd class="detailPrice">
+                                        <div class="txtWrap">
+                                            <span class="size">M</span>
+                                            <span class="sale_price">29,500</span>
+                                        </div>
+                                        <div class="txtWrap">
+                                            <span class="size">L</span>
+                                            <span class="sale_price">25,500</span>
+                                        </div>
+                                    </dd>
+                                </dl>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="thumbImg">
+                                    <div class="tag best">
+                                        <span>Best</span>
+                                    </div>
+                                    <div class="imgWrap">
+                                        <img src="../assets/img/contents/menu_set_05.png" alt="">
+                                    </div>
+                                </div>
+                                <dl class="thumbTxt">
+                                    <dt>정통 세트</dt>
+                                    <dd class="detailTxt">
+                                        <p class="info">정통 피자 <span></span> 사이드 <span></span> 음료</p>
+                                    </dd>
+                                    <dd class="detailPrice">
+                                        <div class="txtWrap">
+                                            <span class="size">M</span>
+                                            <span class="sale_price">26,500</span>
+                                        </div>
+                                        <div class="txtWrap">
+                                            <span class="size">L</span>
+                                            <span class="sale_price">23,500</span>
+                                        </div>
+                                    </dd>
+                                </dl>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section> 
+        </div>
+        
+        <footer>
+            <ul class="bottomMenu">
+    <li>
+        <a href="index.html">
+            <img src="../assets/img/common/ico_menu_home.png" alt="">
+            <p>홈</p>
+        </a>
+    </li>
+    <li>
+        <a href="menu_pizza.html">
+            <img src="../assets/img/common/ico_menu_menu.png" alt="">
+            <p>메뉴</p>
+        </a>
+    </li>
+    <li>
+        <a href="cart.html">
+            <img src="../assets/img/common/ico_menu_my.png" alt="">
+            <p>마이</p>
+        </a>
+    </li>
+    <li>
+        <a href="event_01.html">
+            <img src="../assets/img/common/ico_menu_event.png" alt="">
+            <p>이벤트</p>
+        </a>
+    </li>
+</ul>
+        </footer>
+    </div>
+</body>
+
+</html>

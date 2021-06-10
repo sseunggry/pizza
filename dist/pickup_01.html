@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Script-Type" content="text/javascript">
+    <meta http-equiv="Content-Style-Type" content="text/css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-compatible" content="IE=edge, chrome=1">
+    <!-- css library -->
+
+    <!-- css customize -->
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/common.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/contents.css">
+
+    <!-- javascript -->
+    <script type="text/javascript" src="../assets/js/lib/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="../assets/js/lib/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="../assets/js/common.js" defer></script>
+
+    <title>pizza</title>
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <div class="navBar">
+    <div class="utill backBtn">
+        <img src="../assets/img/common/ico_back.png" alt="">
+    </div>
+
+    <div class="utill carBtn">
+        <a href="cart.html">
+            <img src="../assets/img/common/ico_cart.png" alt="">
+        </a>    
+    </div>
+</div>
+            <div class="txtTit">
+                <h2>포장 매장 선택</h2>
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="tabWrap_top">
+                <ul class="tabList">
+                    <li class="active"><a href="pickup_01.html">근처 매장 찾기</a></li>
+                    <li><a href="pickup_02.html">지역/매장명 찾기</a></li>
+                </ul>
+            </div>
+
+
+            <section class="result nearbyStore">
+                <div class="inner">
+                    <p class="totalResult">검색 결과 <span>6</span>건</p>
+                    <ul class="storeList">
+                        <li>
+                            <a href="#">
+                                <dl>
+                                    <dt>
+                                        <span class="distance skyblue">1.8km</span>
+                                        여의도중앙점
+                                    </dt>
+                                    <dd>서울 영등포구 여의도동 53-12</dd>
+                                    <dd>예상 포장시간 : 14분</dd>
+                                    <dd>운영시간 : 11시 00분 ~ 22시 30분</dd>
+                                    <dd><a href="tel:02-3775-1588">매장 전화번호 : 02-3775-1588</a></dd>
+                                </dl>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <dl>
+                                    <dt>
+                                        <span class="distance skyblue">2km</span>
+                                        신수점
+                                    </dt>
+                                    <dd>서울 마포구 구수동 57-3번지</dd>
+                                    <dd>예상 포장시간 : 14분</dd>
+                                    <dd>운영시간 : 11시 00분 ~ 22시 30분</dd>
+                                    <dd><a href="tel:02-3273-1588">매장 전화번호 : 02-3273-1588</a></dd>
+                                </dl>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <dl>
+                                    <dt>
+                                        <span class="distance skyblue">2km</span>
+                                        여의도중앙점
+                                    </dt>
+                                    <dd>서울 영등포구 여의도동 53-12</dd>
+                                    <dd>예상 포장시간 : 14분</dd>
+                                    <dd>운영시간 : 11시 00분 ~ 22시 30분</dd>
+                                    <dd><a href="tel:02-3273-1588"></a>매장 전화번호 : 02-3775-1588</dd>
+                                </dl>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <dl>
+                                    <dt>
+                                        <span class="distance skyblue">2km</span>
+                                        당산3호점
+                                    </dt>
+                                    <dd>서울 영등포구 당산동3가 139-2호 화진빌딩 2층</dd>
+                                    <dd>예상 포장시간 : 14분</dd>
+                                    <dd>운영시간 : 11시 00분 ~ 22시 30분</dd>
+                                    <dd><a href="tel:02-2069-1823"></a>매장 전화번호 : 02-2069-1823</dd>
+                                </dl>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <dl>
+                                    <dt>
+                                        <span class="distance skyblue">2.1km</span>
+                                        대방점
+                                    </dt>
+                                    <dd>서울 동작구 대방동 341-4</dd>
+                                    <dd>예상 포장시간 : 14분</dd>
+                                    <dd>운영시간 : 11시 00분 ~ 22시 30분</dd>
+                                    <dd><a href="tel:02-825-8400"></a>매장 전화번호 : 02-825-8400</dd>
+                                </dl>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        
+        <footer>
+            <ul class="bottomMenu">
+    <li>
+        <a href="index.html">
+            <img src="../assets/img/common/ico_menu_home.png" alt="">
+            <p>홈</p>
+        </a>
+    </li>
+    <li>
+        <a href="menu_pizza.html">
+            <img src="../assets/img/common/ico_menu_menu.png" alt="">
+            <p>메뉴</p>
+        </a>
+    </li>
+    <li>
+        <a href="cart.html">
+            <img src="../assets/img/common/ico_menu_my.png" alt="">
+            <p>마이</p>
+        </a>
+    </li>
+    <li>
+        <a href="event_01.html">
+            <img src="../assets/img/common/ico_menu_event.png" alt="">
+            <p>이벤트</p>
+        </a>
+    </li>
+</ul>
+        </footer>
+    </div>
+</body>
+
+</html>
