@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Script-Type" content="text/javascript">
+    <meta http-equiv="Content-Style-Type" content="text/css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-compatible" content="IE=edge, chrome=1">
+    <!-- css customize -->
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/common.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/contents.css">
+
+    <!-- javascript -->
+    <script type="text/javascript" src="./assets/js/lib/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="./assets/js/lib/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="./assets/js/common.js" defer></script>
+
+    <link rel="shortcut icon" href="./assets/img/common/favicon.ico">
+
+    <title>pizza</title>
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <div class="navBar">
+                <div class="utill backBtn">
+                    <img src="./assets/img/common/ico_back.png" alt="">
+                </div>
+
+                <div class="utill carBtn">
+                    <a href="cart.html">
+                        <img src="./assets/img/common/ico_cart.png" alt="">
+                    </a>    
+                </div>
+            </div>
+            <div class="txtTit">
+                <h2>메뉴</h2>
+            </div>
+        </header>
+
+        <div class="menu tabWrap_top">
+            <ul class="tabList">
+                <li class="active">
+                    <a href="menu_pizza.html">피자</a>
+                </li>
+                <li>
+                    <a href="menu_set.html">세트</a>
+                </li>
+                <li>
+                    <a href="menu_side.html">사이드</a>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="container">
+
+            <section class="menu_pizza">
+                <div class="inner">
+                    <ul class="productList">
+                        <li>
+                            <a href="pizzadetail_01.html">
+                                <div class="thumbImg">
+                                    <div class="tag best">
+                                        <span>Best</span>
+                                    </div>
+                                    <div class="imgWrap">
+                                        <img src="./assets/img/contents/pizza_thumb_01.png" alt="">
+                                    </div>
+                                </div>
+                                <dl class="thumbTxt">
+                                    <dt>쉬반단반 피자</dt>
+                                    <dd class="detailPrice">
+                                        <div class="txtWrap">
+                                            <span class="size">M</span>
+                                            <span class="sale_price">20,930</span>
+                                            <span class="origin_price">29,900</span>
+                                        </div>
+                                        <div class="txtWrap">
+                                            <span class="size">L</span>
+                                            <span class="sale_price">25,130</span>
+                                            <span class="origin_price">35,900</span>
+                                        </div>
+                                    </dd>
+                                    <dd class="detailTxt">
+                                        <span class="red">배달 30%</span>
+                                        <span>포장 40%</span>
+                                    </dd>
+                                </dl>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="thumbImg">
+                                    <div class="tag best">
+                                        <span>Best</span>
+                                    </div>
+                                    <div class="imgWrap">
+                                        <img src="./assets/img/contents/pizza_thumb_02.png" alt="">
+                                    </div>
+                                </div>
+                                <dl class="thumbTxt">
+                                    <dt>서울 핫도그 피자</dt>
+                                    <dd class="detailPrice">
+                                        <div class="txtWrap">
+                                            <span class="size">L</span>
+                                            <span class="sale_price">25,130</span>
+                                            <span class="origin_price">35,900</span>
+                                        </div>
+                                    </dd>
+                                    <dd class="detailTxt">
+                                        <span class="red">배달 30%</span>
+                                        <span>포장 40%</span>
+                                    </dd>
+                                </dl>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="thumbImg">
+                                    <div class="imgWrap">
+                                        <img src="./assets/img/contents/pizza_thumb_03.png" alt="">
+                                    </div>
+                                </div>
+                                <dl class="thumbTxt">
+                                    <dt>목동 피자</dt>
+                                    <dd class="detailPrice">
+                                        <div class="txtWrap">
+                                            <span class="size">M</span>
+                                            <span class="sale_price">20,930</span>
+                                            <span class="origin_price">29,900</span>
+                                        </div>
+                                        <div class="txtWrap">
+                                            <span class="size">L</span>
+                                            <span class="sale_price">25,130</span>
+                                            <span class="origin_price">35,900</span>
+                                        </div>
+                                    </dd>
+                                    <dd class="detailTxt">
+                                        <span class="red">배달 30%</span>
+                                        <span>포장 40%</span>
+                                    </dd>
+                                </dl>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="thumbImg">
+                                    <div class="tag new">
+                                        <span>new</span>
+                                    </div>
+                                    <div class="imgWrap">
+                                        <img src="./assets/img/contents/pizza_thumb_04.png" alt="">
+                                    </div>
+                                </div>
+                                <dl class="thumbTxt">
+                                    <dt>단호박 피자</dt>
+                                    <dd class="detailPrice">
+                                        <div class="txtWrap">
+                                            <span class="size">M</span>
+                                            <span class="sale_price">19,400</span>
+                                            <span class="origin_price">23,200</span>
+                                        </div>
+                                        <div class="txtWrap">
+                                            <span class="size">L</span>
+                                            <span class="sale_price">23,400</span>
+                                            <span class="origin_price">28,900</span>
+                                        </div>
+                                    </dd>
+                                    <dd class="detailTxt">
+                                        <span class="red">배달 30%</span>
+                                        <span>포장 40%</span>
+                                    </dd>
+                                </dl>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="thumbImg">
+                                    <div class="tag best">
+                                        <span>Best</span>
+                                    </div>
+                                    <div class="imgWrap">
+                                        <img src="./assets/img/contents/pizza_thumb_05.png" alt="">
+                                    </div>
+                                </div>
+                                <dl class="thumbTxt">
+                                    <dt>콤비네이션 피자</dt>
+                                    <dd class="detailPrice">
+                                        <div class="txtWrap">
+                                            <span class="size">L</span>
+                                            <span class="sale_price">20,840</span>
+                                            <span class="origin_price">25,300</span>
+                                        </div>
+                                    </dd>
+                                    <dd class="detailTxt">
+                                        <span class="red">배달 30%</span>
+                                        <span>포장 40%</span>
+                                    </dd>
+                                </dl>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="thumbImg">
+                                    <div class="tag new">
+                                        <span>new</span>
+                                    </div>
+                                    <div class="imgWrap">
+                                        <img src="./assets/img/contents/pizza_thumb_06.png" alt="">
+                                    </div>
+                                </div>
+                                <dl class="thumbTxt">
+                                    <dt>웃음꽃 피자</dt>
+                                    <dd class="detailPrice">
+                                        <div class="txtWrap">
+                                            <span class="size">M</span>
+                                            <span class="sale_price">21,000</span>
+                                            <span class="origin_price">28,900</span>
+                                        </div>
+                                        <div class="txtWrap">
+                                            <span class="size">L</span>
+                                            <span class="sale_price">25,130</span>
+                                            <span class="origin_price">30,400</span>
+                                        </div>
+                                    </dd>
+                                    <dd class="detailTxt">
+                                        <span class="red">배달 30%</span>
+                                        <span>포장 40%</span>
+                                    </dd>
+                                </dl>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+        </div>
+        
+        <footer>
+            <ul class="bottomMenu">
+                <li>
+                    <a href="index.html">
+                        <img src="./assets/img/common/ico_menu_home.png" alt="">
+                        <p>홈</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="menu_pizza.html">
+                        <img src="./assets/img/common/ico_menu_menu.png" alt="">
+                        <p>메뉴</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="cart.html">
+                        <img src="./assets/img/common/ico_menu_my.png" alt="">
+                        <p>마이</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="event_01.html">
+                        <img src="./assets/img/common/ico_menu_event.png" alt="">
+                        <p>이벤트</p>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </div>
+</body>
+
+</html>
